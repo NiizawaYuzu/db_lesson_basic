@@ -17,13 +17,13 @@ Records: 0  Duplicates: 0  Warnings: 0
 
 Q3
 
-MariaDB [db_lesson]> insert into departments (department_id,name)
+MariaDB [db_lesson]> insert into departments (name)
     -> values
-    -> (1,'営業'),
-    -> (2,'開発'),
-    -> (3,'経理'),
-    -> (4,'人事'),
-    -> (5,'情報システム');
+    -> ('営業'),
+    -> ('開発'),
+    -> ('経理'),
+    -> ('人事'),
+    -> ('情報システム');
 Query OK, 5 rows affected (0.015 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 
